@@ -359,3 +359,42 @@
 	}
 
 }
+
+
+///editDataUser
+
+.editDataUser__form{
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+	grid-auto-flow: column;
+	grid-gap: 30px 80px;
+	padding: 30px 0 0 0;
+}
+.editDataUser__row{
+	display: grid;
+	grid-template-columns: 100px 1fr;
+	align-items: center;
+	grid-gap: 30px;
+}
+.editDataUser-content{
+	max-width: 100%;
+	border-radius: 10px;
+	@include mq('tablet-wide') {
+		width: 1146px;
+	}
+}
+
+//createTransport
+.createTransport__form{
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	padding: 30px 0 0 0;
+}
+.createTransport-content{
+	max-width: 100%;
+	border-radius: 10px;
+	@include mq('tablet-wide') {
+		width: 558px;
+	}
+}

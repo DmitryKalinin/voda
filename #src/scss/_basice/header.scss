@@ -18,6 +18,9 @@
       grid-gap: 30px;
     }
   }
+  &__admin-container{
+    grid-template-columns: auto auto auto 1fr auto;
+  }
   &__link{
     padding: 0 20px;
     width: fit-content;

@@ -75,3 +75,32 @@
   background-repeat: no-repeat;
   background-position: center right 15px;
 }
+
+
+/////titleAdmin
+.titleAdmin__title{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.titleAdmin__name{
+  margin: 0;
+}
+.titleAdmin__body{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.titleAdmin__form{
+  display: flex;
+  align-items: flex-end;
+  gap: 40px;
+}
+.titleAdmin__input{
+  width: 400px;
+}
+.titleAdmin__buttons{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}

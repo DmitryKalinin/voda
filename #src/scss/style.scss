@@ -47,20 +47,23 @@ $fontFamily: 'Rubik', sans-serif;
 @import "_basice/select";
 
 
-
+/////Dispatcher
 //main
-@import "main/slider";
-@import "main/titleFilter";
-@import "main/table";
+@import "dispatcher/main/slider";
+@import "dispatcher/main/titleFilter";
+@import "dispatcher/main/table";
 
 //registry
-@import "registry/aside";
-@import "registry/titleFilter";
-@import "registry/table";
+@import "dispatcher/registry/aside";
+@import "dispatcher/registry/titleFilter";
+@import "dispatcher/registry/table";
 
 //transport
-@import "transport/titleFilter";
-@import "transport/table";
+@import "dispatcher/transport/titleFilter";
+@import "dispatcher/transport/table";
 
+/////Administrator
+//listUsers
+@import "admin/table";
 
 //</ПОДКЛЮЧЕНИЕ ФАЙЛОВ СТИЛЕЙ СТРАНИЦ И ЭЛЕМЕНТОВ>====================================================================================================
