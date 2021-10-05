@@ -38,7 +38,7 @@ $fontFamily: 'Rubik', sans-serif;
 //@import "../component/Tabs/scss/tabs.scss";
 //@import "../component/Quantity/scss/quantity.scss";
 
-
+@import "_basice/auth";
 @import "_basice/popup";
 @import "_basice/header";
 @import "_basice/menu/menu";
@@ -66,5 +66,28 @@ $fontFamily: 'Rubik', sans-serif;
 /////Administrator
 //listUsers
 @import "admin/table";
+
+/////Chief
+//transport
+@import "chief/transport/titleFilter.scss";
+@import "chief/transport/table.scss";
+//registry
+@import "chief/registry/titleFilter.scss";
+@import "chief/registry/table.scss";
+//registry
+@import "chief/stats/titleFilter.scss";
+@import "chief/stats/table.scss";
+
+/////Mobile-master
+//request
+@import "mobile-master/request/filter.scss";
+@import "mobile-master/request/table.scss";
+//emergency
+@import "mobile-master/emergency/filter.scss";
+@import "mobile-master/emergency/table.scss";
+//task-item
+@import "mobile-master/task-item/first.scss";
+//task-process
+@import "mobile-master/task-process/first.scss";
 
 //</ПОДКЛЮЧЕНИЕ ФАЙЛОВ СТИЛЕЙ СТРАНИЦ И ЭЛЕМЕНТОВ>====================================================================================================
